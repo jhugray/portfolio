@@ -1,6 +1,6 @@
 :root {
   --primary-color: #b8d17d;
-  --secondary-color: #024e76;
+  --secondary-color: #0c354b;
   --tertiary-color: #326d8c;
 }
 
@@ -9,23 +9,26 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
 header {
   padding: 20px 35px;
-  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../images/hero-bg.jpg");
+  background-color: var(--primary-color);
+  background-image: url("https://unsplash.com/photos/Xt__2HcR_Hw");
   background-size: cover;
   background-position: center; 
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
 }
-
+h1 {
+  color: var(--secondary-color);
+}
 header nav {
   margin: 7px 0;
 }
@@ -40,13 +43,22 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 2vw;
+  color: var(--secondary-color);
 }
 
+
+.banner h2 {
+  text-align: end;
+  padding: 10px;
+}
+
+
 .projects {
+  width: 70%;
+  float: right;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items:center;
   padding: 20px;
   margin: 30px;
@@ -55,7 +67,10 @@ header nav ul li a {
 }
 
 .project-ex {
+  width: 70%;
+  float: right;
   display: flex;
+  justify-content: space-around;
   align-content: stretch;
   padding: 20px;
   margin: 20px;
@@ -67,23 +82,25 @@ header nav ul li a {
 
 
 .side-menu h3{
-  width: 30%;
-  padding: 10px 5px;
+  width: 10%;
+  padding: 20px 10px;
   margin: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: aqua;
+  background-color: aqua; */
+  float: left; 
+  border-right-style: solid;
+  border-right-color: red;
+  border-width: 5px;
 }
 
 .side-menu p{
   width: 70%;
   padding: 10px 5px;
-  margin: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-
+  margin: 10px;
+  float: right; 
+  background-color: pink;
 }
 
