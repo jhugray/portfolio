@@ -81,28 +81,28 @@ header nav ul li a {
   border-right-style: solid;
   border-right-color: var(--primary-color);
   border-width: 5px;
+  height: inherit;
 }
-
-
-/* .about-me p{
-  padding: 10px 5px;
-  margin: 10px;
-  background-color: pink;
-} */
 
 .projects {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items:center;
   /* background-color: red; */
 }
 
+.projects h4 {
+  background-color: rgba(98, 171, 183, 0.5);
+  text-align: center;
+}
+
 .project-ex1 {
-  width: 70%;
-  float: right;
-  display: flex;
-  justify-content: space-around;
-  align-content: stretch;
+  /* width: 70%; */
+  /* float: right; */
+  /* display: flex;
+  justify-content: space-around; */
+  /* align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
@@ -110,11 +110,11 @@ header nav ul li a {
   background-image: url("https://lh3.googleusercontent.com/2CnI6Yz5vtKTgE9CuNPUpANh1FlM-GxyHjMI2P_6tAphsQ18SFTeQA_AGs5TICqs2IEc-40DvVfSzIxssZRqRELONJA8uqsigBCA4V0Eb26M-W3VVgODa8a-MZnntqi-6Cw_PuFw46Tg1_9kdRRu-PK5NeePdnU-Etgi0lDlJ85mGspcb6VTHOk-luz8A3vLxMU6eUB6dnWHqQSr4fw0CPZMCDS4TTC4TosxKHpXixXIGEuyqxYQ3QHqxM2_7KgxbkcxCwFc4fN7E44__X0ysv4MNFYLD9VEkziMLm4uWVCQzMrbG_f8QCLA5dgOYrdsBgM9ZWT8xngD1xOnPk3vy0P6hqxm8U0ruiOomLM7W9Ov0HQx6OgVvZC3vrsKeTdNd_yqXHiGTivlsPnKUWwKssJS8JrkVBYH_rUMfbLwJj-irjxffovdTw8SVDlM1KmgnsGvDTchNU6YrOC1rHQ9FtZenQhK9NDK8GDJri4isqOSIRsMl6RYGNg3fWwEs64N_tOiUETTHd2FmW6zzNoRyrNtMNGPnqhuDBQ2SIC1qu6qatyFl47Ok7ZR4X5GRhP-Vq8eUDHI_pb8UB8FZ7F79DQOjPoWX1TbCqfDoMaHvR2r2JZzEYUw07M6FXE78YpSSYU3E54KQPD0uD2-YjdAK2tWnAOdVwp0-J6g9X53jcshDS9n64avZJh6_8xJFcuBNeKO6W35-8_pYtdklstwzw6s3g=w911-h696-no?authuser=1");
 }
 .project-ex2 {
-  width: 70%;
-  float: right;
-  display: flex;
+  /* width: 70%; */
+  /* float: right; */
+  /* display: flex;
   justify-content: space-around;
-  align-content: stretch;
+  align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
@@ -124,22 +124,22 @@ header nav ul li a {
 }
 
 .project-ex3 {
-  width: 70%;
-  float: right;
+  /* width: 70%; */
+  /* float: right;
   display: flex;
   justify-content: space-around;
-  align-content: stretch;
+  align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
   border-style: solid;
 }
 .project-ex4 {
-  width: 70%;
+  /* width: 70%;
   float: right;
   display: flex;
   justify-content: space-around;
-  align-content: stretch;
+  align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
