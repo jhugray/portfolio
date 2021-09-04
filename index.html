@@ -9,6 +9,8 @@
 
   <body>
 
+    <!-- header at the top of the page with links to page content -->
+
     <header>
       <h1>Jess Hause Ugray</h1>
       <nav>
@@ -20,7 +22,7 @@
             <a href="#work">My Work</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a href="#contact">Contact Me</a>
           </li>
           <li>
              <a href="#resume">Resume</a>
@@ -30,15 +32,18 @@
     </header>
 
 
-    <section class="banner">
+
+    <!-- subtitle w/banner image -->
+    <!-- TO DO - ADD IMAGE ICON, HAVE TEXT BACKGROUND ON THE RIGHT SIDE ONLY -->
+
+    <header class="banner">
       <h2>COOL SUBTITLE</h2>
-    </section>
+    </header>
 
 
 
-
-      <div class="maincontainer">
-
+<!-- about me flex container w/2 child (1 menu, 1 content) -->
+      <main id="about-me" class="maincontainer">
           <h3>About Me</h3>
         
            <p> ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id harum assumenda minus a aperiam, nostrum 
@@ -47,32 +52,42 @@
             dsghjdsgjkldhfgdsgjkg dsgkjsdg 
           </p>
 
-      </div>
+      </main>
 
+
+<!-- my work flex container w/child menu, and flex container w/children project sections -->
       
-      <div class="maincontainer">
+      <main id="work" class="maincontainer">
         <h3>My Work</h3>
 
-        <div class="projects">
-         <div class="project-ex1">
-          <a href="https://jhugray.github.io/run-buddy/">
-          <h4>Run Buddy</h4>
-          </a>
-        </div>
-        <div class="project-ex2">
+        <section class="projects">
+
+         <section class="project-ex1">
+            <a href="https://jhugray.github.io/run-buddy/">
+             <h4>Run Buddy</h4>
+            </a>
+          </section>
+
+          <section class="project-ex2">
            <h4>Horiseon</h4> 
-        </div>
-        <div class="project-ex3">
-          <h4>Project3</h4>
+          </section>
+          <section class="project-ex3">
+            <h4>Project3</h4>
+          </section>
+          <section class="project-ex4">
+            <h4>Project4</h4>
+          </section>
+          <section class="project-ex4">
+            <h4>Project5</h4>
+          </section>
 
-        </div>
-        <div class="project-ex4">
-          <h4>Project4</h4>
-        </div>
 
-      </div>
+        </section>
+      
+      </main>
 
-      <div class="maincontainer">
+      <!-- contact me flex w/2 child items (menu and contact links)-->
+      <footer id="contact" class="maincontainer">
           <h3>Contact Me</h3>
 
             <ul>
@@ -87,4 +102,4 @@
               </li>
             </ul>
             
-      </div>
+      </footer>
