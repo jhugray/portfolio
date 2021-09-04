@@ -62,6 +62,23 @@ header nav ul li a {
   padding: 7px;
 }
 
+/* .column-left {
+  float: left;
+  padding: 10px;
+  width: 15%;
+}
+
+.column-right {
+  float: right;
+  padding: 10px;
+  width: 80%;
+} */
+/* 
+.row {
+  content: "";
+  display: table;
+  clear: both;
+} */
 
 .maincontainer {
   display: flex;
@@ -93,9 +110,36 @@ header nav ul li a {
   list-style: none;
 }
 
+/* .side-menu h3 {
+  /* width: 10%;
+  padding: 20px 10px;
+  margin: 20px; */
+  /* background-color: pink; */
+  /* border-right-style: solid;
+  border-right-color: var(--primary-color);
+  border-width: 5px;
+  height: inherit;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center; */
+  /* background-color: red; */
+/* }  */
+
+/* .projects h4 {
+  background-color: rgba(98, 171, 183, 0.5);
+  text-align: center;
+} */
 
 .project-ex1 {
- 
+  /* width: 70%; */
+  /* float: right; */
+  /* display: flex;
+  justify-content: space-around; */
+  /* align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
@@ -104,7 +148,11 @@ header nav ul li a {
 }
 
 .project-ex2 {
-
+  /* width: 70%; */
+  /* float: right; */
+  /* display: flex;
+  justify-content: space-around;
+  align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
@@ -114,7 +162,11 @@ header nav ul li a {
 }
 
 .project-ex3 {
-
+  /* width: 70%; */
+  /* float: right;
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
@@ -122,7 +174,11 @@ header nav ul li a {
 }
 
 .project-ex4 {
- 
+  /* width: 70%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch; */
   padding: 80px;
   margin: 20px;
   border: var(--tertiary-color);
